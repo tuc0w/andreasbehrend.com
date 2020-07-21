@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313"
 title   = "Andreas Behrend"
-languageCode = "de-de"
+languageCode = "de"
 theme = "hello-friend-ab"
 
 PygmentsCodeFences = true
@@ -66,7 +66,7 @@ disableHugoGeneratorInject = false
     # Integrate Javascript files or stylesheets by adding the url to the external assets or by
     # linking local files with their path relative to the static folder, e.g. "css/styles.css"
     customCSS = []
-    customJS  = []
+    customJS  = ['js/fontawesome-all.js']
 
     # Toggle this option need to rebuild SCSS, requires extended version of Hugo
     justifyContent = false  # Set "text-align: justify" to .content.
@@ -82,14 +82,14 @@ disableHugoGeneratorInject = false
         theme = "#252627"
 
     [params.logo]
-        logoText     = "$ cd ~"
+        logoText     = "tuc0w@hello-friend$ "
         logoHomeLink = "/"
         logoCursorDisabled = false
         logoCursorColor    = "#42DCA3"
         logoCursorAnimate  = "1s"
 
     [params.portrait]
-        path = "/img/avataaars.png"
+        path = "/img/picture.jpg"
         alt = "Portrait"
 
     # Social icons

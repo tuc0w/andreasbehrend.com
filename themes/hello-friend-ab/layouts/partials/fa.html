@@ -5,4 +5,9 @@
 
 {{ $iconName := .icon }}
 
-<i class="{{ $faStylePrefix }} fa-{{ $iconName }}"></i>
+{{ $iconSize := "fa-1x" }}
+{{ if in (slice "fa-1x" "fa-2x" "fa-3x" "fa-4x" "fa-5x") (.size) }}
+    {{ $iconSize = (.size) }}
+{{ end }}
+
+<i class="{{ $faStylePrefix }} fa-{{ $iconName }} {{ $iconSize }}"></i>
