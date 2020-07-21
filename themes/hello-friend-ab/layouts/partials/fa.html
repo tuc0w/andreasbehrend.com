@@ -1,0 +1,8 @@
+{{ $faStylePrefix := "fas" }}
+{{ if in (slice "fas" "far" "fal" "fad" "fab") (.prefix) }}
+    {{ $faStylePrefix = (.prefix) }}
+{{ end }}
+
+{{ $iconName := .icon }}
+
+<i class="{{ $faStylePrefix }} fa-{{ $iconName }}"></i>

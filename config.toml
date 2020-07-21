@@ -1,0 +1,124 @@
+baseURL = "http://localhost:1313"
+title   = "Andreas Behrend"
+languageCode = "de-de"
+theme = "hello-friend-ab"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = true
+disableRSS     = true
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[author]
+    name = "Andreas Behrend"
+
+[blackfriday]
+    hrefTargetBlank = true
+
+[taxonomies]
+    tag      = "tags"
+    category = "categories"
+    series   = "series"
+
+[params]
+    dateform        = "2. Jan 2006"
+    dateformShort   = "2. Jan"
+    dateformNum     = "02.01.2006"
+    dateformNumTime = "02.01.2006 15:04 -0700"
+
+    # Metadata mostly used in document's head
+    description = "Nice theme for homepages and blogs"
+    keywords = ""
+    images = [""]
+
+    homeSubtitle = "Senior Software Engineer"
+
+    # Prefix of link to the git commit detail page. GitInfo must be enabled.
+    # gitUrl = ""
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+    # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+    customCSS = []
+    customJS  = []
+
+    # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+    justifyContent = false  # Set "text-align: justify" to .content.
+
+    # Default theme "light" or "dark"
+    defaultTheme = "dark"
+    themeColor = "#252627"
+
+    # Colors for favicons
+    [params.favicon.color]
+        mask = "#252627"
+        msapplication = "#252627"
+        theme = "#252627"
+
+    [params.logo]
+        logoText     = "$ cd ~"
+        logoHomeLink = "/"
+        logoCursorDisabled = false
+        logoCursorColor    = "#42DCA3"
+        logoCursorAnimate  = "1s"
+
+    [params.portrait]
+        path = "/img/avataaars.png"
+        alt = "Portrait"
+
+    # Social icons
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/tuc0w"
+
+    [[params.social]]
+        name = "instagram"
+        url  = "https://instagram.com/tuc0w"
+
+    [[params.social]]
+        name = "twitter"
+        url  = "https://twitter.com/tuc0w"
+
+    [[params.social]]
+        name = "xing"
+        url  = "https://www.xing.com/profile/Andreas_Behrend4"
+
+# [menu]
+#     [[menu.main]]
+#         identifier = "about"
+#         name       = "About"
+#         url        = "about/"
+#     [[menu.main]]
+#         identifier = "uses"
+#         name       = "Uses"
+#         url        = "uses/"
+#     [[menu.main]]
+#         identifier = "posts"
+#         name       = "Posts"
+#         url        = "posts/"

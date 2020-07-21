@@ -1,0 +1,17 @@
+name = "hello-friend-ab"
+license = "MIT"
+licenselink = "https://github.com/tuc0w/hugo-theme-hello-friend-ab/blob/master/LICENSE.md"
+description = "A simple theme for Hugo. That's it."
+tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
+features = ["blog", "shortcode", "syntax highlighting"]
+min_version = 0.30
+
+[author]
+  name = "Andreas Behrend"
+  homepage = "https://andreasbehrend.com"
+  twitter = "https://twitter.com/tuc0w"
+
+[original]
+  name = "Djordje Atlialp"
+  homepage = "https://atlialp.com"
+  twitter = "https://twitter.com/rhazdon"
