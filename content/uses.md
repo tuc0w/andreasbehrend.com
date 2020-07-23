@@ -8,9 +8,9 @@ date = "2020-07-23"
 
 Inspiriert durch Wes Bos uns sein Projekt [uses.tech](https://uses.tech).
 
-### Computer & Arbeitsplatz
 {{< instagram B-HQduUC0TX hidecaption >}}
 
+### Computer & Arbeitsplatz
 - **Computer:** Ich benutze einen Dell Latitude 5490 mit Intel i5, 16GB RAM und 512GB SSD für die Arbeit, zusätzlich habe ich noch ein 2009er MacBook und einen Mittelklasse Gaming PC mit einem AMD FX-8120, auf einem ASUS M5A99X EVO mit 16GB RAM und einer ZOTAC GTX 1050 Ti OC.
 - **Schreibtisch:** Mein Schreibtisch ist ein 160x80 cm großer, elektrisch in der Höhe verstellbarer, IKEA Bekant.
 
