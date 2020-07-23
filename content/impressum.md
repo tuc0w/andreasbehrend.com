@@ -7,13 +7,17 @@ date = "2020-07-23"
 +++
 
 ## Angaben gemäß § 5 TMG
-Andreas Behrend,
-Bismarckstraße 101,
+```
+Andreas Behrend
+Bismarckstraße 101
 41542 Dormagen
+```
 
 ## Kontakt
-Telefon: 015678 349841, 
+```
+Telefon: 015678 349841
 E-Mail: hi [at] andreasbehrend.com
+```
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 Andreas Behrend
