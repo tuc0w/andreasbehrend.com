@@ -21,4 +21,4 @@ jobs:
         script: |
           cd ~/andreasbehrend.com
           git pull
-          hugo --minify
+          hugo
