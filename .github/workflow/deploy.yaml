@@ -1,0 +1,25 @@
+name: deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: SSH Remote Commands
+    uses: appleboy/ssh-action@master
+    with:
+      host: ${{ secrets.HOST }}
+      username: ${{ secrets.USERNAME }}
+      key: ${{ secrets.KEY }}
+      port: ${{ secrets.PORT }}
+      passphrase: ${{ secrets.PASSPHRASE }}
+      script_stop: true
+      script: |
+        cd ~/andreasbehrend.com
+        git pull
+        hugo --minify
+
