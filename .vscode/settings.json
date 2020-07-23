@@ -1,5 +1,8 @@
 {
     "files.exclude": {
         "**/.git": false
+    },
+    "[markdown]": {
+        "editor.wordWrap": "off"
     }
 }

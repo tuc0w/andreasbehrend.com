@@ -52,7 +52,6 @@ disableHugoGeneratorInject = false
     dateformNum     = "02.01.2006"
     dateformNumTime = "02.01.2006 15:04 -0700"
 
-    # Metadata mostly used in document's head
     keywords = "senior software developer, andreas behrend, php, javascript, python, dart, flutter"
 
     homeSubtitle = "Senior Software Developer"
@@ -64,19 +63,12 @@ disableHugoGeneratorInject = false
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
 
-    # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-    # linking local files with their path relative to the static folder, e.g. "css/styles.css"
     customCSS = []
-    customJS  = ['js/fontawesome-all.min.js']
-
-    # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-    justifyContent = false  # Set "text-align: justify" to .content.
-
-    # Default theme "light" or "dark"
+    customJS  = ['/js/fontawesome-all.min.js']
+    justifyContent = false
     defaultTheme = "dark"
     themeColor = "#252627"
 
-    # Colors for favicons
     [params.favicon.color]
         mask = "#252627"
         msapplication = "#252627"
@@ -110,16 +102,16 @@ disableHugoGeneratorInject = false
         name = "xing"
         url  = "https://www.xing.com/profile/Andreas_Behrend4"
 
-# [menu]
-#     [[menu.main]]
-#         identifier = "about"
-#         name       = "About"
-#         url        = "about/"
-#     [[menu.main]]
-#         identifier = "uses"
-#         name       = "Uses"
-#         url        = "uses/"
-#     [[menu.main]]
-#         identifier = "posts"
-#         name       = "Posts"
-#         url        = "posts/"
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name       = "/about"
+        url        = "about/"
+    [[menu.main]]
+        identifier = "uses"
+        name       = "/uses"
+        url        = "uses/"
+    # [[menu.main]]
+    #     identifier = "posts"
+    #     name       = "/posts"
+    #     url        = "posts/"
