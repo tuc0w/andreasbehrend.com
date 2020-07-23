@@ -111,6 +111,10 @@ disableHugoGeneratorInject = false
         identifier = "uses"
         name       = "/uses"
         url        = "uses/"
+    [[menu.main]]
+        identifier = "impressum"
+        name       = "/impressum"
+        url        = "impressum/"
     # [[menu.main]]
     #     identifier = "posts"
     #     name       = "/posts"
