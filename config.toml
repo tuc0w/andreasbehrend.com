@@ -67,7 +67,7 @@ disableHugoGeneratorInject = false
     # Integrate Javascript files or stylesheets by adding the url to the external assets or by
     # linking local files with their path relative to the static folder, e.g. "css/styles.css"
     customCSS = []
-    customJS  = ['js/fontawesome-all.js']
+    customJS  = ['js/fontawesome-all.min.js']
 
     # Toggle this option need to rebuild SCSS, requires extended version of Hugo
     justifyContent = false  # Set "text-align: justify" to .content.
