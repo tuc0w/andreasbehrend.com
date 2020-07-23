@@ -12,6 +12,10 @@
                 {{ block "main" . }}{{ end }}
             </div>
 
+            {{- with .Site.Params.wideMonitor }}
+                <div class="really-wide-monitor">{{.}}</div>
+            {{- end }}
+
             {{ block "footer" . }}
                 {{ partial "footer.html" . }}
             {{ end }}
