@@ -9,8 +9,8 @@ date = "2020-07-23"
 ## Angaben gemäß § 5 TMG
 ```
 Andreas Behrend
-Bismarckstraße 101
-41542 Dormagen
+Naegelestraße 16
+40225 Düsseldorf
 ```
 
 ## Kontakt
