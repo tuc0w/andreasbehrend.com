@@ -6,7 +6,7 @@ date = "2020-07-23"
   name = "Andreas"
 +++
 
-Inspiriert durch Wes Bos uns sein Projekt [uses.tech](https://uses.tech).
+Inspiriert durch Wes Bos und sein Projekt [uses.tech](https://uses.tech).
 
 {{< instagram B-HQduUC0TX hidecaption >}}
 
