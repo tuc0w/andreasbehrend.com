@@ -74,6 +74,10 @@ disableHugoGeneratorInject = false
         msapplication = "#252627"
         theme = "#252627"
 
+    [params.instagram]
+        appId = "{{INSTAGRAM_APP_ID}}"
+        clientToken = "{{INSTAGRAM_CLIENT_TOKEN}}"
+
     [params.logo]
         logoText     = "tuc0w@hello-friend$ "
         logoHomeLink = "/"
