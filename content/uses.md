@@ -8,24 +8,27 @@ date = "2020-07-23"
 
 Inspiriert durch Wes Bos und sein Projekt [uses.tech](https://uses.tech).
 
-{{< instagram B-HQduUC0TX hidecaption >}}
+{{< image src="/img/20230109_224701_2.png" alt="Setup" position="left" style="border-radius: 12px; width: 60%" >}}
 
 ### Computer & Arbeitsplatz
-- **Computer:** Ich benutze einen Dell Latitude 5490 mit Intel i5, 16GB RAM und 512GB SSD für die Arbeit, zusätzlich habe ich noch ein 2009er MacBook und einen Mittelklasse Gaming PC mit einem AMD FX-8120, auf einem ASUS M5A99X EVO mit 16GB RAM und einer ZOTAC GTX 1050 Ti OC.
+
+- **Computer:** Ich benutze einen Razer Blade 15 mit Intel i7, 64GB RAM, 512GB Samsung SSD, 1TB Samsung 980 SSD mit einer NVIDIA GeForce RTX 3060.
 - **Schreibtisch:** Mein Schreibtisch ist ein 160x80 cm großer, elektrisch in der Höhe verstellbarer, IKEA Bekant.
 
 ### Peripherie
-- **Monitor:** Als Hauptmonitor benutze ich einen 34" UltraWide Curved LG 34GL750-B.
-- **Webcam:** Gerade für Videokonferen und ab und zu auch einen Stream benutze ich die Logitech C920 HD Pro.
+
+- **Monitor:** Als Hauptmonitor benutze ich einen 34" UltraWide Curved LG 34GL750-B. Als zweiten Monitor benutze ich einen 24" Dell P2417H im Hochformat.
+- **Webcam:** Für Videocalls benutze ich die Logitech C920 HD Pro.
 - **Maus & Tastatur:** Für einen guten Komfort, der bei oft mehr als 8 Stunden pro Tag am PC, benutze ich die Logitech MX Keys Tastatur und MX Master 3 Maus.
 
 ### Audio
+
 - **Mikrofon:** Ich benutze ein Fame Studio C05 Großmembran-Kondensatormikrofon.
-- **Mischpult:** Um das Mikrofon mit Strom zu versorgen und es mit dem PC zu verbinden benutze ich ein Behringer XENYX Q1002USB.
-- **Kopfhörer:** Am PC, im Home Office, benutze ich hauptsächlich mein Bose SoundSport in-ear Headset. Wenn ich im Büro bin benutze ich entweder meine Bose QC35 II oder seit kurzem die Plantronics Voyager 8200.
+- **Audiointerface:** Um das Mikrofon mit Strom zu versorgen und es mit dem PC zu verbinden benutze ich ein Focusrite Scarlett Solo 3rd Gen.
+- **Kopfhörer:** In der Regel benutze ich entweder meine Shure AONIC 40, Bose QuietComfort Earbuds II oder die Bose QC35 II. Hier kommt es immer auf die aktuelle Umgebung an.
 
 ### Software
-- **Entwicklungsumgebung:** Visual Studio Code ist mein lieblings Editor für so gut wie alles und mein Theme ist _Dark+_.
-- **Terminal:** [Terminus Alpha](https://github.com/Eugeny/terminus)
-- **Zeiterfassung:** Timeular inklusive dem 8-Seitigen [Timeular Tracker](https://timeular.com/product/tracker/).
-- **Notizen:** [Notion](https://www.notion.so) <3
+
+- **Entwicklungsumgebung:** Visual Studio Code ist mein lieblings Editor für so gut wie alles und mein Theme ist _Bearded Theme Black & Amethyst_.
+- **Terminal:** [Tabby](https://tabby.sh) (Tabby hieß früher Terminus Alpha)
+- **Notizen:** Um das Chaos in meinem Kopf zu ordnen verwende ich [Obsidian](https://obsidian.md/)

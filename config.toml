@@ -1,12 +1,12 @@
 baseURL = "/"
 title   = "Andreas Behrend"
-languageCode = "en"
+languageCode = "de"
 theme = "hello-friend-ab"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
 paginate  = 10
 rssLimit  = 10
@@ -52,9 +52,9 @@ disableHugoGeneratorInject = false
     dateformNum     = "02.01.2006"
     dateformNumTime = "02.01.2006 15:04 -0700"
 
-    keywords = "senior software developer, andreas behrend, php, javascript, python, dart, flutter"
+    keywords = "senior software developer, senior software architect, andreas behrend, php, python, dart, flutter"
 
-    homeSubtitle = "Senior Software Developer"
+    homeSubtitle = "Senior Software Entwickler & Architekt"
     wideMonitor = "What a big monitor you have!"
 
     # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -74,10 +74,6 @@ disableHugoGeneratorInject = false
         msapplication = "#252627"
         theme = "#252627"
 
-    [params.instagram]
-        appId = "{{INSTAGRAM_APP_ID}}"
-        clientToken = "{{INSTAGRAM_CLIENT_TOKEN}}"
-
     [params.logo]
         logoText     = "tuc0w@hello-friend$ "
         logoHomeLink = "/"
@@ -86,7 +82,7 @@ disableHugoGeneratorInject = false
         logoCursorAnimate  = "1s"
 
     [params.portrait]
-        path = "/img/picture.jpg"
+        path = "/img/andreas.jpg"
         alt = "Portrait"
 
     # Social icons
@@ -99,8 +95,8 @@ disableHugoGeneratorInject = false
         url  = "https://instagram.com/tuc0w"
 
     [[params.social]]
-        name = "twitter"
-        url  = "https://twitter.com/tuc0w"
+        name = "linkedin"
+        url  = "https://www.linkedin.com/in/andreasbehrend"
 
     [[params.social]]
         name = "xing"

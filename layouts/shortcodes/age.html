@@ -1,0 +1,20 @@
+{{ $birthday := time "1985-05-30" }}
+{{ $birthYear := int ($birthday.Format "2006") }}
+{{ $birthMonth := int ($birthday.Month) }}
+{{ $birthDay := int ($birthday.Day) }}
+
+{{ $currentYear := int (now.Format "2006") }}
+{{ $currentMonth := int (now.Month) }}
+{{ $currentDay := int (now.Day) }}
+
+{{ $age := sub $currentYear $birthYear }}
+
+{{ if lt $currentMonth $birthMonth }}
+    {{ $age = sub $age 1 }}
+{{ else if eq $currentMonth $birthMonth }}
+    {{ if lt $currentDay $birthDay }}
+        {{ $age = sub $age 1 }}
+    {{ end }}
+{{ end }}
+
+{{ $age }}
