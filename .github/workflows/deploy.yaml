@@ -21,6 +21,4 @@ jobs:
         script: |
           cd ~/andreasbehrend.com
           git pull
-          sed -i 's/{{INSTAGRAM_APP_ID}}/${{ secrets.INSTAGRAM_APP_ID }}/g' config.toml
-          sed -i 's/{{INSTAGRAM_CLIENT_TOKEN}}/${{ secrets.INSTAGRAM_CLIENT_TOKEN }}/g' config.toml
           hugo
