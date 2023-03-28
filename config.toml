@@ -52,9 +52,9 @@ disableHugoGeneratorInject = false
     dateformNum     = "02.01.2006"
     dateformNumTime = "02.01.2006 15:04 -0700"
 
-    keywords = "senior software developer, senior software architect, andreas behrend, php, python, dart, flutter"
+    keywords = "senior software developer, senior software architect, indie game developer, andreas behrend, php, python, dart, flutter, unity, c#, c sharp"
 
-    homeSubtitle = "Senior Software Entwickler & Architekt"
+    homeSubtitle = "Senior Software Entwickler/Architekt & Indie Game Developer"
     wideMonitor = "What a big monitor you have!"
 
     # Prefix of link to the git commit detail page. GitInfo must be enabled.

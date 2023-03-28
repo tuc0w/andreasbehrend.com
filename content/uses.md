@@ -30,5 +30,6 @@ Inspiriert durch Wes Bos und sein Projekt [uses.tech](https://uses.tech).
 ### Software
 
 - **Entwicklungsumgebung:** Visual Studio Code ist mein lieblings Editor für so gut wie alles und mein Theme ist _Bearded Theme Black & Amethyst_.
-- **Terminal:** [Tabby](https://tabby.sh) (Tabby hieß früher Terminus Alpha)
+- **Game Engine:** Für die Entwicklung von Spielen verwende ich Unity.
 - **Notizen:** Um das Chaos in meinem Kopf zu ordnen verwende ich [Obsidian](https://obsidian.md/)
+- **Terminal:** [Tabby](https://tabby.sh) (Tabby hieß früher Terminus Alpha)
