@@ -25,11 +25,12 @@ Inspiriert durch Wes Bos und sein Projekt [uses.tech](https://uses.tech).
 
 - **Mikrofon:** Ich benutze ein Fame Studio C05 Großmembran-Kondensatormikrofon.
 - **Audiointerface:** Um das Mikrofon mit Strom zu versorgen und es mit dem PC zu verbinden benutze ich ein Focusrite Scarlett Solo 3rd Gen.
-- **Kopfhörer:** In der Regel benutze ich entweder meine Shure AONIC 40, Bose QuietComfort Earbuds II oder die Bose QC35 II. Hier kommt es immer auf die aktuelle Umgebung an.
+- **Kopfhörer:** In der Regel benutze ich meine Bose QC35 II.
 
 ### Software
 
 - **Entwicklungsumgebung:** Visual Studio Code ist mein lieblings Editor für so gut wie alles und mein Theme ist _Bearded Theme Black & Amethyst_.
 - **Game Engine:** Für die Entwicklung von Spielen verwende ich Unity.
 - **Notizen:** Um das Chaos in meinem Kopf zu ordnen verwende ich [Obsidian](https://obsidian.md/)
+- **Planung:** Meinen Tag plane ich mit [Structured - Daily Planner](https://structured.app/)
 - **Terminal:** [Tabby](https://tabby.sh) (Tabby hieß früher Terminus Alpha)

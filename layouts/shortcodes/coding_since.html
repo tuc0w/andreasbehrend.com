@@ -1,4 +1,7 @@
 {{ $birthdayParam := .Get "birthday" }}
+{{ $ageParam := .Get "age" }}
+
+{{ $since := int $ageParam }}
 
 {{ $birthday := time $birthdayParam }}
 {{ $birthYear := int ($birthday.Format "2006") }}
@@ -18,5 +21,7 @@
         {{ $age = sub $age 1 }}
     {{ end }}
 {{ end }}
+
+{{ $age = sub $age $since }}
 
 {{ $age }}

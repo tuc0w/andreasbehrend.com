@@ -54,7 +54,7 @@ disableHugoGeneratorInject = false
 
     keywords = "senior software developer, senior software architect, indie game developer, andreas behrend, php, python, dart, flutter, unity, c#, c sharp"
 
-    homeSubtitle = "Senior Software Entwickler/Architekt & Indie Game Developer"
+    homeSubtitle = "Software Entwickler, Solutions Architekt & Sparringspartner"
     wideMonitor = "What a big monitor you have!"
 
     # Prefix of link to the git commit detail page. GitInfo must be enabled.
