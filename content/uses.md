@@ -30,7 +30,7 @@ Inspiriert durch Wes Bos und sein Projekt [uses.tech](https://uses.tech).
 ### Software
 
 - **Entwicklungsumgebung:** Visual Studio Code ist mein lieblings Editor für so gut wie alles und mein Theme ist _Bearded Theme Black & Emerald_.
-- **Game Engine:** Für die Entwicklung von Spielen verwende ich Godot 4.x.
-- **Notizen:** Um das Chaos in meinem Kopf zu ordnen verwende ich AppFlowy und Obsidian.
-- **Planung:** Meinen Tag plane ich mit [Structured - Daily Planner](https://structured.app/), wiederkehrende Aufgaben tracke ich mit HabitKit.
+- **Game Engine:** Für die Entwicklung von Spielen verwende ich [Godot 4.x](https://godotengine.org).
+- **Notizen:** Um das Chaos in meinem Kopf zu ordnen verwende ich [AppFlowy](https://appflowy.com) und [Obsidian](https://obsidian.md).
+- **Planung:** Meinen Tag plane ich mit [Structured - Daily Planner](https://structured.app/), wiederkehrende Aufgaben tracke ich mit [HabitKit](https://www.habitkit.app).
 - **Terminal:** [Tabby](https://tabby.sh) (Tabby hieß früher Terminus Alpha)
